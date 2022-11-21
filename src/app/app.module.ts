@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-// import { NgChartsModule } from 'ng2-charts';
+import { NgChartsModule } from 'ng2-charts';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlipswitchComponent } from './components/flipswitch/flipswitch.component';
@@ -39,6 +40,7 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
         deps: [ HttpClient ],
       },
     }),
+    NgChartsModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],
