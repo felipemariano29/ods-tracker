@@ -1,0 +1,37 @@
+<div class="nav">
+  <a
+    id="nav-home"
+    class="nav--item"
+    href="#" [href]="linkEnum.HOME"
+    [ngClass]="{ active: router.url === '/' + linkEnum.HOME }">{{ 'NAVBAR.HOME' | translate }}</a>
+
+  <a
+    id="nav-info"
+    class="nav--item"
+    href="#" [href]="linkEnum.INFO"
+    [ngClass]="{ active: router.url === '/' + linkEnum.INFO }">{{ 'NAVBAR.INFO' | translate }}</a>
+
+  <a
+    id="nav-overview"
+    class="nav--item"
+    href="#" [href]="linkEnum.OVERVIEW"
+    [ngClass]="{ active: router.url === '/' + linkEnum.OVERVIEW }">{{ 'NAVBAR.OVERVIEW' | translate }}</a>
+
+  <a
+    id="nav-sdg"
+    class="nav--item"
+    href="#" [href]="linkEnum.SDG"
+    [ngClass]="{ active: router.url === '/' + linkEnum.SDG }">{{ 'NAVBAR.SDG' | translate }}</a>
+
+  <a
+    id="nav-charts"
+    class="nav--item"
+    href="#" [href]="linkEnum.CHARTS"
+    [ngClass]="{ active: router.url === '/' + linkEnum.CHARTS }">{{ 'NAVBAR.CHARTS' | translate }}</a>
+
+  <a
+    id="nav-ranking"
+    class="nav--item"
+    href="#" [href]="linkEnum.RANKING"
+    [ngClass]="{ active: router.url === '/' + linkEnum.RANKING }">{{ 'NAVBAR.RANKING' | translate }}</a>
+</div>

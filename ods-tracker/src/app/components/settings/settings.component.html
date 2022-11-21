@@ -1,0 +1,13 @@
+<div class="config">
+  <button class="btn config--button" (click)="isModalOpen = !isModalOpen">
+    <img src="assets/settings.svg" alt="Abrir menu de configurações">
+  </button>
+
+  <ng-container *ngIf="isModalOpen">
+    <div class="config--modal">
+      <app-flipswitch [type]="switchTypeEnum.THEME"></app-flipswitch>
+
+      <app-flipswitch [type]="switchTypeEnum.LANGUAGE"></app-flipswitch>
+    </div>
+  </ng-container>
+</div>

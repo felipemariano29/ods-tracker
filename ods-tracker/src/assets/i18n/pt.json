@@ -1,0 +1,382 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "INFO": "Info",
+    "OVERVIEW": "Geral",
+    "SDG": "ODS",
+    "CHARTS": "Gráficos",
+    "RANKING": "Ranking"
+  },
+  "SWITCH": {
+    "THEME": {
+      "ON": "Claro",
+      "OFF": "Escuro"
+    },
+    "LANGUAGE": {
+      "ON": "Português",
+      "OFF": "Inglês"
+    }
+  },
+  "HOME": {
+    "TITLE": "ODS Tracker",
+    "SUBTITLE": "Desempenho do Brasil",
+    "DESCRIPTION": "De acordo com o Índice de Desenvolvimento Sustentável das Cidades"
+  },
+  "INFO": [
+    {
+      "TITLE": "Visão Geral",
+      "DESCRIPTION": "O Índice de Desenvolvimento Sustentável das Cidades – Brasil (IDSC-BR) apresenta uma avaliação abrangente da distância para se atingir as metas e objetivos da Agenda 2030 nos 5.570 municípios brasileiros, com base nos dados mais atualizados disponíveis nas fontes nacionais e oficiais. A intenção é orientar a ação política de prefeitos e prefeitas, definir referências e metas com base em indicadores e facilitar o monitoramento dos ODS em nível local. Há uma score para cada objetivo e outra para o conjunto dos 17 ODS, de modo que seja possível avaliar os progressos e desafios dos municípios brasileiros para o cumprimento da Agenda 2030.",
+      "ICON": "visibility"
+    },
+    {
+      "TITLE": "Quem Faz",
+      "DESCRIPTION": "O Índice de Desenvolvimento Sustentável das Cidades é uma iniciativa do Instituto Cidades Sustentáveis, no âmbito do Programa Cidades Sustentáveis, realizada em parceria com a Sustainable Development Solution Network (SDSN). O IDSC-BR conta com apoio do Projeto Citinova, do Ministério da Ciência, Tecnologia e Inovações (MCTI), do Programa das Nações Unidas para o Meio Ambiente e do Fundo Global para o Meio Ambiente (GEF na sigla em inglês). A coleta de dados e indicadores foi realizada pelo Centro Brasileiro de Análise e Planejamento (Cebrap).",
+      "ICON": "person"
+    },
+    {
+      "TITLE": "Indicadores",
+      "DESCRIPTION": "Contemplam áreas como saúde, educação, renda, moradia, assistência social, igualdade de cor e gênero, acesso à água e ao esgotamento sanitário, energia, segurança pública, emissões e diversas outras. Associados e agrupados por ODS, eles permitem que se obtenha uma score específica por objetivo e outra geral, para o conjunto dos 17 compromissos estabelecidos pela ONU em 2015.",
+      "ICON": "analytics"
+    },
+    {
+      "TITLE": "Metodologia",
+      "DESCRIPTION": "TA metodologia do IDSC-BR foi elaborada pela rede SDSN (UN Sustainable Development Solution Network), uma iniciativa da ONU para mobilizar conhecimentos técnicos e científicos da academia, da sociedade civil e do setor privado no apoio de soluções em escalas locais, nacionais e globais. Lançada em 2012, a SDSN já desenvolveu índices para diversos países e cidades do mundo. Articulada em redes, a SDSN conta hoje com mais de 40 grupos nacionais e regionais, sendo dois deles no Brasil (um de caráter nacional e outro dedicado à Amazônia).",
+      "ICON": "assignment"
+    }
+  ],
+  "OVERVIEW": {
+    "TITLE": "No Brasil,",
+    "ITEMS": [
+      {
+        "TEXT": "0 cidades (0%) atingiram o nível muito alto de desenvolvimento (80 pontos ou mais)"
+      },
+      {
+        "TEXT": "113 cidades (2%) atingiram o nível alto de desenvolvimento (60 a 79,99 pontos)"
+      },
+      {
+        "TEXT": "1.566 cidades (28%) atingiram o nível médio de desenvolvimento (50 a 59,99 pontos)"
+      },
+      {
+        "TEXT": "3.139 cidades (56%) atingiram o nível baixo de desenvolvimento (40 a 49,99 pontos)"
+      },
+      {
+        "TEXT": "752 cidades (14%) atingiram o nível muito baixo de desenvolvimento (0 a 39,99 pontos)"
+      }
+    ]
+  },
+  "SDG": [
+    {
+      "ID": 1,
+      "TITLE": "Erradicação da Pobreza",
+      "DESCRIPTION": "Acabar com a pobreza em todas as suas formas, em todos os lugares",
+      "ICON": "assets/ods-icones/erradicacao-da-pobreza.svg",
+      "SCORE": "52,08 pontos"
+    },
+    {
+      "ID": 2,
+      "TITLE": "Fome Zero e Agricultura Sustentável",
+      "DESCRIPTION": "Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável",
+      "ICON": "assets/ods-icones/fome-zero.svg",
+      "SCORE": "42,47 pontos"
+    },
+    {
+      "ID": 3,
+      "TITLE": "Saúde e Bem Estar",
+      "DESCRIPTION": "Assegurar uma vida saudável e promover o bem-estar para todos, em todas as idades",
+      "ICON": "assets/ods-icones/saude-e-bem-estar.svg",
+      "SCORE": "66,40 pontos"
+    },
+    {
+      "ID": 4,
+      "TITLE": "Educação de Qualidade",
+      "DESCRIPTION": "Assegurar a educação inclusiva e equitativa de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos",
+      "ICON": "assets/ods-icones/educacao-de-qualidade.svg",
+      "SCORE": "44,61 pontos"
+    },
+    {
+      "ID": 5,
+      "TITLE": "Igualdade de Gênero",
+      "DESCRIPTION": "Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas",
+      "ICON": "assets/ods-icones/igualdade-de-genero.svg",
+      "SCORE": "28,92 pontos"
+    },
+    {
+      "ID": 6,
+      "TITLE": "Água Potável e Saneamento",
+      "DESCRIPTION": "Assegurar a disponibilidade e a gestão sustentável da água e saneamento para todos",
+      "ICON": "assets/ods-icones/agua-potavel.svg",
+      "SCORE": "54,89 pontos"
+    },
+    {
+      "ID": 7,
+      "TITLE": "Energia Acessível e Limpa",
+      "DESCRIPTION": "Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todos",
+      "ICON": "assets/ods-icones/energia-limpa.svg",
+      "SCORE": "59,38 pontos"
+    },
+    {
+      "ID": 8,
+      "TITLE": "Trabalho Decente e Crescimento Econômico",
+      "DESCRIPTION": "Promover o crescimento econômico sustentado, inclusivo e sustentável, o emprego pleno e produtivo e o trabalho decente para todos",
+      "ICON": "assets/ods-icones/trabalho-economico.svg",
+      "SCORE": "47,26 pontos"
+    },
+    {
+      "ID": 9,
+      "TITLE": "Indústria Inovação e Infraestrutura",
+      "DESCRIPTION": "Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação",
+      "ICON": "assets/ods-icones/industria-inovacao.svg",
+      "SCORE": "56,39 pontos"
+    },
+    {
+      "ID": 10,
+      "TITLE": "Redução das Desigualdades",
+      "DESCRIPTION": "Reduzir a desigualdade dentro dos países e entre eles",
+      "ICON": "assets/ods-icones/reducao-das-desigualdades.svg",
+      "SCORE": "58,29 pontos"
+    },
+    {
+      "ID": 11,
+      "TITLE": "Cidades e Comunidades Sustentáveis",
+      "DESCRIPTION": "Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis",
+      "ICON": "assets/ods-icones/cidades-e-comunidades.svg",
+      "SCORE": "72,27 pontos"
+    },
+    {
+      "ID": 12,
+      "TITLE": "Consumo e Produção Responsáveis",
+      "DESCRIPTION": "Assegurar padrões de produção e de consumo sustentáveis",
+      "ICON": "assets/ods-icones/consumo-responsavel.svg",
+      "SCORE": "39,79 pontos"
+    },
+    {
+      "ID": 13,
+      "TITLE": "Ação Contra a Mudança Global do Clima",
+      "DESCRIPTION": "Tomar medidas urgentes para combater a mudança do clima e seus impactos",
+      "ICON": "assets/ods-icones/mudanca-global.svg",
+      "SCORE": "60,66 pontos"
+    },
+    {
+      "ID": 14,
+      "TITLE": "Vida na Água",
+      "DESCRIPTION": "Conservar e promover o uso sustentável dos oceanos, dos mares e dos recursos marinhos para o desenvolvimento sustentável",
+      "ICON": "assets/ods-icones/vida-na-agua.svg",
+      "SCORE": "19,08 pontos"
+    },
+    {
+      "ID": 15,
+      "TITLE": "Vida Terrestre",
+      "DESCRIPTION": "Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a desertificação, deter e reverter a degradação da terra e deter a perda",
+      "ICON": "assets/ods-icones/vida-terrestre.svg",
+      "SCORE": "23,35 pontos"
+    },
+    {
+      "ID": 16,
+      "TITLE": "Paz, Justiça e Instituições Eficazes",
+      "DESCRIPTION": "Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis",
+      "ICON": "assets/ods-icones/paz-justica.svg",
+      "SCORE": "57,90 pontos"
+    },
+    {
+      "ID": 17,
+      "TITLE": "Parcerias e Meios de Implementação",
+      "DESCRIPTION": "Fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável",
+      "ICON": "assets/ods-icones/parcerias.svg",
+      "SCORE": "13,92 pontos"
+    }
+  ],
+  "CHARTS": [
+    {
+      "TITLE": "Por Região",
+      "ID": "region",
+      "NAME": [
+        "Norte",
+        "Nordeste",
+        "Centro-Oeste",
+        "Sul",
+        "Sudeste"
+      ],
+      "VALUE": [
+        39.62,
+        42.21,
+        46.77,
+        49.86,
+        51.92
+      ]
+    },
+    {
+      "TITLE": "Por Estado",
+      "ID": "state",
+      "NAME": [
+        "PA",
+        "AM",
+        "MA",
+        "RR",
+        "AC",
+        "AP",
+        "AL",
+        "SE",
+        "TO",
+        "BA",
+        "RO",
+        "PI",
+        "PE",
+        "PB",
+        "RN",
+        "CE",
+        "MT",
+        "GO",
+        "MS",
+        "RJ",
+        "MG",
+        "RS",
+        "SC",
+        "ES",
+        "PR",
+        "SP",
+        "DF"
+      ],
+      "VALUE": [
+        37.11,
+        38.05,
+        38.24,
+        39.07,
+        39.61,
+        39.97,
+        41.15,
+        41.42,
+        41.88,
+        42.42,
+        42.50,
+        42.64,
+        42.74,
+        42.99,
+        43.25,
+        44.34,
+        44.95,
+        47.19,
+        48.58,
+        49.09,
+        49.17,
+        49.25,
+        49.90,
+        50.28,
+        50.60,
+        56.16,
+        57.52
+      ]
+    }
+  ],
+  "RANKING": [
+    {
+      "TITLE": "Maiores Pontuações",
+      "DATA": [
+        {
+          "NAME": "São Caetano do Sul",
+          "STATE": "SP",
+          "SCORE": "65,617"
+        },
+        {
+          "NAME": "Jundiaí",
+          "STATE": "SP",
+          "SCORE": "65,436"
+        },
+        {
+          "NAME": "Valinhos",
+          "STATE": "SP",
+          "SCORE": "65,161"
+        },
+        {
+          "NAME": "Saltinho",
+          "STATE": "SP",
+          "SCORE": "64,509"
+        },
+        {
+          "NAME": "Taguaí",
+          "STATE": "SP",
+          "SCORE": "64,348"
+        },
+        {
+          "NAME": "Vinhedo",
+          "STATE": "SP",
+          "SCORE": "63,783"
+        },
+        {
+          "NAME": "Cerquilho",
+          "STATE": "SP",
+          "SCORE": "63,757"
+        },
+        {
+          "NAME": "Sertãozinho",
+          "STATE": "SP",
+          "SCORE": "63,636"
+        },
+        {
+          "NAME": "Limeira",
+          "STATE": "SP",
+          "SCORE": "63,528"
+        },
+        {
+          "NAME": "Borá",
+          "STATE": "SP",
+          "SCORE": "63,452"
+        }
+      ]
+    },
+    {
+      "TITLE": "Menores Pontuações",
+      "DATA": [
+        {
+          "NAME": "Santana do Araguaia",
+          "STATE": "PA",
+          "SCORE": "30,095"
+        },
+        {
+          "NAME": "Lábrea",
+          "STATE": "AM",
+          "SCORE": "30,149"
+        },
+        {
+          "NAME": "Boca do Acre",
+          "STATE": "AM",
+          "SCORE": "30,712"
+        },
+        {
+          "NAME": "Acará",
+          "STATE": "PA",
+          "SCORE": "30,883"
+        },
+        {
+          "NAME": "Cachoeira do Piriá",
+          "STATE": "PA",
+          "SCORE": "31,951"
+        },
+        {
+          "NAME": "Floresta do Araguaia",
+          "STATE": "PA",
+          "SCORE": "30,975"
+        },
+        {
+          "NAME": "Nova Esperança do Piriá",
+          "STATE": "SP",
+          "SCORE": "31,041"
+        },
+        {
+          "NAME": "Amarante do Maranhão",
+          "STATE": "MA",
+          "SCORE": "31,098"
+        },
+        {
+          "NAME": "Placas",
+          "STATE": "PA",
+          "SCORE": "31,228"
+        },
+        {
+          "NAME": "Bom Jesus das Selvas",
+          "STATE": "MA",
+          "SCORE": "31,361"
+        }
+      ]
+    }
+  ]
+}

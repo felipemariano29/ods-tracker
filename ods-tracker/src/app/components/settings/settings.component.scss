@@ -1,0 +1,79 @@
+.config {
+
+  &--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    outline: none;
+    border: none;
+    border-radius: var(--arredon-borda-pq);
+    background: var(--principal);
+
+    &:hover {
+      cursor: pointer
+    }
+
+    img {
+      width: 4rem;
+      filter: invert(95%) sepia(18%) saturate(7%) hue-rotate(286deg) brightness(114%) contrast(92%);
+    }
+  }
+
+  &--modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+    width: 40rem;
+    height: 20rem;
+    border-radius: var(--arredon-borda-md);
+    background: var(--secundaria);
+    background-image: linear-gradient(45deg, var(--secundaria-claro), var(--secundaria), var(--secundaria-escuro));
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.15);
+    transition: 600ms;
+  }
+}
+
+.btn-active {
+  background: var(--principal);
+}
+
+#dark .btn-active {
+  background: var(--neutra);
+}
+
+.active {
+  transform: translateX(-110rem);
+}
+
+#dark img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(102%) contrast(102%);
+}
+
+#dark nav a {
+  color: var(--principal-claro);
+  background-image: linear-gradient(to right, var(--secundaria-claro), var(--secundaria), var(--secundaria-escuro));
+}
+
+#dark a img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg) brightness(102%) contrast(102%)
+}
+
+#dark #config-modal {
+  background: var(--secundaria);
+  background-image: linear-gradient(45deg, var(--secundaria-claro), var(--secundaria), var(--secundaria-escuro));
+}
+
+#dark #config-modal p {
+  color: var(--principal-claro);
+}
+
+#dark #config-btn img {
+  width: 4rem;
+  filter: invert(47%) sepia(95%) saturate(621%) hue-rotate(161deg) brightness(104%) contrast(101%);
+}

@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 14rem;
+    border-radius: var(--arredon-borda-pq);
+    outline: none;
+    color: var(--neutra);
+    background: linear-gradient(to right, var(--secundaria-claro), var(--secundaria), var(--secundaria-escuro));
+    transition: var(--tempo-transicao);
+
+    &.active,
+    &:hover {
+      background: linear-gradient(to right, var(--principal), var(--principal-claro));
+
+      #dark {
+        background: linear-gradient(to right, var(--neutra), var(--neutra-escuro));;
+      }
+    }
+  }
+}

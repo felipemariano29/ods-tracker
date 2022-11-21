@@ -1,0 +1,15 @@
+<div class="flipswitch">
+  <div class="flipswitch--container">
+    <p>{{ options.options.on | translate }} </p>
+    <div class="flipswitch--switch">
+      <input
+        type="checkbox" name="flipswitch" class="flipswitch--switch--cb" [id]="options.id"
+        (change)="isThemeType ? changeTheme() : changeLanguage()" [checked]="isPortuguese">
+      <label class="flipswitch--switch--label" [for]="options.id">
+        <div class="flipswitch--switch--inner"></div>
+        <div class="flipswitch--switch--switch"></div>
+      </label>
+    </div>
+    <p>{{ options.options.off | translate }}</p>
+  </div>
+</div>

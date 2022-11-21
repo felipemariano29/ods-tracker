@@ -1,0 +1,382 @@
+{
+  "NAVBAR": {
+    "HOME": "Home",
+    "INFO": "Info",
+    "OVERVIEW": "Overview",
+    "SDG": "SDG",
+    "CHARTS": "Charts",
+    "RANKING": "Ranking"
+  },
+  "SWITCH": {
+    "THEME": {
+      "ON": "Light",
+      "OFF": "Dark"
+    },
+    "LANGUAGE": {
+      "ON": "Portuguese",
+      "OFF": "English"
+    }
+  },
+  "HOME": {
+    "TITLE": "ODS Tracker",
+    "SUBTITLE": "Brazil's performance",
+    "DESCRIPTION": "According to the Sustainable Development Index of Cities"
+  },
+  "INFO": [
+    {
+      "TITLE": "Overview",
+      "DESCRIPTION": "The Sustainable Cities Development Index – Brazil (IDSC-BR) presents a comprehensive assessment of the distance to achieve the goals and objectives of the 2030 Agenda in the 5,570 Brazilian municipalities, based on the most up-to-date data available from national and official sources. The intention is to guide the political action of mayors and mayors, define benchmarks and targets based on indicators and facilitate monitoring of the SDGs at the local level. There is a score for each objective and another for the set of 17 SDGs, so that it is possible to assess the progress and challenges of Brazilian municipalities in meeting the 2030 Agenda.",
+      "ICON": "visibility"
+    },
+    {
+      "TITLE": "Who Does",
+      "DESCRIPTION": "The Sustainable Cities Development Index is an initiative of the Sustainable Cities Institute, under the Sustainable Cities Program, carried out in partnership with the Sustainable Development Solution Network (SDSN). IDSC-BR is supported by the Citinova Project, the Ministry of Science, Technology and Innovation (MCTI), the United Nations Environment Program and the Global Environment Facility (GEF). Data and indicators were collected by the Brazilian Center for Analysis and Planning (Cebrap).",
+      "ICON": "person"
+    },
+    {
+      "TITLE": "Indicators",
+      "DESCRIPTION": "They cover areas such as health, education, income, housing, social assistance, equality of color and gender, access to water and sanitation, energy, public safety, emissions and many others. Associated and grouped by SDGs, they allow obtaining a specific score by objective and a general one, for the set of 17 commitments established by the UN in 2015.",
+      "ICON": "analytics"
+    },
+    {
+      "TITLE": "Methodology",
+      "DESCRIPTION": "The IDSC-BR methodology was developed by the SDSN (UN Sustainable Development Solution Network), a UN initiative to mobilize technical and scientific knowledge from academia, civil society and the private sector to support solutions at local, national and global scales. . Launched in 2012, SDSN has already developed indices for several countries and cities around the world. Articulated in networks, SDSN currently has more than 40 national and regional groups, two of them in Brazil (one national and the other dedicated to the Amazon).",
+      "ICON": "assignment"
+    }
+  ],
+  "OVERVIEW": {
+    "TITLE": "In Brazil,",
+    "ITEMS": [
+      {
+        "TEXT": "0 cities (0%) reached the very high level of development (80 points or more)"
+      },
+      {
+        "TEXT": "113 cities (2%) reached the high level of development (60 to 79.99 points)"
+      },
+      {
+        "TEXT": "1,566 cities (28%) reached the medium level of development (50 to 59.99 points)"
+      },
+      {
+        "TEXT": "3,139 cities (56%) reached the low level of development (40 to 49.99 points)"
+      },
+      {
+        "TEXT": "752 cities (14%) reached the very low level of development (0 to 39.99 points)"
+      }
+    ]
+  },
+  "SDG": [
+    {
+      "ID": 1,
+      "TITLE": "Eradication of Poverty",
+      "DESCRIPTION": "End poverty in all its forms, everywhere",
+      "ICONE": "/assets/ods-icones/erradicacao-da-pobreza.svg",
+      "SCORE": "52.08 points"
+    },
+    {
+      "ID": 2,
+      "TITLE": "Zero Hunger and Sustainable Agriculture",
+      "DESCRIPTION": "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture",
+      "ICONE": "/assets/ods-icones/fome-zero.svg",
+      "SCORE": "42.47 points"
+    },
+    {
+      "ID": 3,
+      "TITLE": "Health and wellness",
+      "DESCRIPTION": "Ensuring healthy lives and promoting well-being for everyone at all ages",
+      "ICONE": "/assets/ods-icones/saude-e-bem-estar.svg",
+      "SCORE": "66,40 points"
+    },
+    {
+      "ID": 4,
+      "TITLE": "Quality education",
+      "DESCRIPTION": "Ensure quality inclusive and equitable education and promote lifelong learning opportunities for all",
+      "ICONE": "/assets/ods-icones/educacao-de-qualidade.svg",
+      "SCORE": "44.61 points"
+    },
+    {
+      "ID": 5,
+      "TITLE": "Gender equality",
+      "DESCRIPTION": "Achieve gender equality and empower all women and girls",
+      "ICONE": "/assets/ods-icones/igualdade-de-genero.svg",
+      "SCORE": "28.92 points"
+    },
+    {
+      "ID": 6,
+      "TITLE": "Clean water and sanitation",
+      "DESCRIPTION": "Ensure the availability and sustainable management of water and sanitation for all",
+      "ICONE": "/assets/ods-icones/agua-potavel.svg",
+      "SCORE": "54.89 points"
+    },
+    {
+      "ID": 7,
+      "TITLE": "Affordable and Clean Energy",
+      "DESCRIPTION": "Ensure reliable, sustainable, modern and affordable access to energy for all",
+      "ICONE": "/assets/ods-icones/energia-limpa.svg",
+      "SCORE": "59.38 points"
+    },
+    {
+      "ID": 8,
+      "TITLE": "Decent Work and Economic Growth",
+      "DESCRIPTION": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "ICONE": "/assets/ods-icones/trabalho-economico.svg",
+      "SCORE": "47.26 points"
+    },
+    {
+      "ID": 9,
+      "TITLE": "Industry Innovation and Infrastructure",
+      "DESCRIPTION": "Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation",
+      "ICONE": "/assets/ods-icones/industria-inovacao.svg",
+      "SCORE": "56.39 points"
+    },
+    {
+      "ID": 10,
+      "TITLE": "Reduction of Inequalities",
+      "DESCRIPTION": "Reduce inequality within and between countries",
+      "ICONE": "/assets/ods-icones/reducao-das-desigualdades.svg",
+      "SCORE": "58.29 points"
+    },
+    {
+      "ID": 11,
+      "TITLE": "Sustainable Cities and Communities",
+      "DESCRIPTION": "Making cities and human settlements inclusive, safe, resilient and sustainable",
+      "ICONE": "/assets/ods-icones/cidades-e-comunidades.svg",
+      "SCORE": "72.27 points"
+    },
+    {
+      "ID": 12,
+      "TITLE": "Responsible Consumption and Production",
+      "DESCRIPTION": "Ensuring sustainable production and consumption patterns",
+      "ICONE": "/assets/ods-icones/consumo-responsavel.svg",
+      "SCORE": "39.79 points"
+    },
+    {
+      "ID": 13,
+      "TITLE": "Action Against Global Climate Change",
+      "DESCRIPTION": "Take urgent action to combat climate change and its impacts",
+      "ICONE": "/assets/ods-icones/mudanca-global.svg",
+      "SCORE": "60.66 points"
+    },
+    {
+      "ID": 14,
+      "TITLE": "Life in the Water",
+      "DESCRIPTION": "Conserve and promote sustainable use of oceans, seas and marine resources for sustainable development",
+      "ICONE": "/assets/ods-icones/vida-na-agua.svg",
+      "SCORE": "19.08 points"
+    },
+    {
+      "ID": 15,
+      "TITLE": "Earth Life",
+      "DESCRIPTION": "Protect, restore and promote the sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, halt and reverse land degradation and halt the loss",
+      "ICONE": "/assets/ods-icones/vida-terrestre.svg",
+      "SCORE": "23.35 points"
+    },
+    {
+      "ID": 16,
+      "TITLE": "Peace, Justice and Effective Institutions",
+      "DESCRIPTION": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "ICONE": "/assets/ods-icones/paz-justica.svg",
+      "SCORE": "57.90 points"
+    },
+    {
+      "ID": 17,
+      "TITLE": "Partnerships and Means of Implementation",
+      "DESCRIPTION": "Strengthen the means of implementation and revitalize the global partnership for sustainable development",
+      "ICONE": "/assets/ods-icones/parcerias.svg",
+      "SCORE": "13.92 points"
+    }
+  ],
+  "CHARTS": [
+    {
+      "TITLE": "By Region",
+      "ID": "region",
+      "NAME": [
+        "Norte",
+        "Nordeste",
+        "Centro-Oeste",
+        "Sul",
+        "Sudeste"
+      ],
+      "VALUE": [
+        39.62,
+        42.21,
+        46.77,
+        49.86,
+        51.92
+      ]
+    },
+    {
+      "TITLE": "By State",
+      "ID": "state",
+      "NAME": [
+        "PA",
+        "AM",
+        "MA",
+        "RR",
+        "AC",
+        "AP",
+        "AL",
+        "SE",
+        "TO",
+        "BA",
+        "RO",
+        "PI",
+        "PE",
+        "PB",
+        "RN",
+        "CE",
+        "MT",
+        "GO",
+        "MS",
+        "RJ",
+        "MG",
+        "RS",
+        "SC",
+        "ES",
+        "PR",
+        "SP",
+        "DF"
+      ],
+      "VALUE": [
+        37.11,
+        38.05,
+        38.24,
+        39.07,
+        39.61,
+        39.97,
+        41.15,
+        41.42,
+        41.88,
+        42.42,
+        42.50,
+        42.64,
+        42.74,
+        42.99,
+        43.25,
+        44.34,
+        44.95,
+        47.19,
+        48.58,
+        49.09,
+        49.17,
+        49.25,
+        49.90,
+        50.28,
+        50.60,
+        56.16,
+        57.52
+      ]
+    }
+  ],
+  "RANKING": [
+    {
+      "TITLE": "Highest Scores",
+      "DATA": [
+        {
+          "NAME": "São Caetano do Sul",
+          "STATE": "SP",
+          "SCORE": "65,617"
+        },
+        {
+          "NAME": "Jundiaí",
+          "STATE": "SP",
+          "SCORE": "65,436"
+        },
+        {
+          "NAME": "Valinhos",
+          "STATE": "SP",
+          "SCORE": "65,161"
+        },
+        {
+          "NAME": "Saltinho",
+          "STATE": "SP",
+          "SCORE": "64,509"
+        },
+        {
+          "NAME": "Taguaí",
+          "STATE": "SP",
+          "SCORE": "64,348"
+        },
+        {
+          "NAME": "Vinhedo",
+          "STATE": "SP",
+          "SCORE": "63,783"
+        },
+        {
+          "NAME": "Cerquilho",
+          "STATE": "SP",
+          "SCORE": "63,757"
+        },
+        {
+          "NAME": "Sertãozinho",
+          "STATE": "SP",
+          "SCORE": "63,636"
+        },
+        {
+          "NAME": "Limeira",
+          "STATE": "SP",
+          "SCORE": "63,528"
+        },
+        {
+          "NAME": "Borá",
+          "STATE": "SP",
+          "SCORE": "63,452"
+        }
+      ]
+    },
+    {
+      "TITLE": "Lowest Scores",
+      "DATA": [
+        {
+          "NAME": "Santana do Araguaia",
+          "STATE": "PA",
+          "SCORE": "30,095"
+        },
+        {
+          "NAME": "Lábrea",
+          "STATE": "AM",
+          "SCORE": "30,149"
+        },
+        {
+          "NAME": "Boca do Acre",
+          "STATE": "AM",
+          "SCORE": "30,712"
+        },
+        {
+          "NAME": "Acará",
+          "STATE": "PA",
+          "SCORE": "30,883"
+        },
+        {
+          "NAME": "Cachoeira do Piriá",
+          "STATE": "PA",
+          "SCORE": "31,951"
+        },
+        {
+          "NAME": "Floresta do Araguaia",
+          "STATE": "PA",
+          "SCORE": "30,975"
+        },
+        {
+          "NAME": "Nova Esperança do Piriá",
+          "STATE": "SP",
+          "SCORE": "31,041"
+        },
+        {
+          "NAME": "Amarante do Maranhão",
+          "STATE": "MA",
+          "SCORE": "31,098"
+        },
+        {
+          "NAME": "Placas",
+          "STATE": "PA",
+          "SCORE": "31,228"
+        },
+        {
+          "NAME": "Bom Jesus das Selvas",
+          "STATE": "MA",
+          "SCORE": "31,361"
+        }
+      ]
+    }
+  ]
+}
